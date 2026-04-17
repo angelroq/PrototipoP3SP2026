@@ -19,7 +19,7 @@ public class FacultadesDAO {
             "SELECT codigo_facultad, nombre_facultad, status_facultad FROM facultades";
 
     private static final String SQL_INSERT =
-            "INSERT INTO facultades (nombre_facultad, status_facultad) VALUES(?, ?)";
+            "INSERT INTO facultades (codigo_facultad, nombre_facultad, status_facultad) VALUES(?, ?, ?)";
 
     private static final String SQL_UPDATE =
             "UPDATE facultades SET nombre_facultad=?, status_facultad=? WHERE codigo_facultad=?";
@@ -87,8 +87,9 @@ public class FacultadesDAO {
             conn = Conexion.getConnection();
             stmt = conn.prepareStatement(SQL_INSERT);
 
-            stmt.setString(1, facultades.getNombre_facultad());
-            stmt.setString(2, facultades.getStatus_facultad());
+            stmt.setString(1, facultades.getCodigo_facultad());
+            stmt.setString(2, facultades.getNombre_facultad());
+            stmt.setString(3, facultades.getStatus_facultad());
 
             rows = stmt.executeUpdate();
 
