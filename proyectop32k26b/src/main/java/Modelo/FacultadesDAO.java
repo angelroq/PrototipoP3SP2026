@@ -78,7 +78,7 @@ public class FacultadesDAO {
         return lista;
     }
 
-    public int insertarPerfil(clsFacultades facultades, clsBitacora bitacora) {
+    public int insertarFacultades(clsFacultades facultades, clsBitacora bitacora) {
         Connection conn = null;
         PreparedStatement stmt = null;
         int rows = 0;
@@ -105,7 +105,7 @@ public class FacultadesDAO {
         return rows;
     }
 
-    public int actualizarPerfil(clsFacultades facultades, clsBitacora bitacora) {
+    public int actualizarFacultades(clsFacultades facultades, clsBitacora bitacora) {
         Connection conn = null;
         PreparedStatement stmt = null;
         int rows = 0;
@@ -133,7 +133,7 @@ public class FacultadesDAO {
         return rows;
     }
 
-    public int eliminarPerfil(clsFacultades facultades, clsBitacora bitacora) {
+    public int eliminarFacultades(clsFacultades facultades, clsBitacora bitacora) {
         Connection conn = null;
         PreparedStatement stmt = null;
         int rows = 0;
@@ -159,7 +159,7 @@ public class FacultadesDAO {
         return rows;
     }
 
-    public clsFacultades obtenerPerfilPorId(int id, clsBitacora bitacora) {
+    public clsFacultades obtenerFacultadesPorId(int id, clsBitacora bitacora) {
         Connection conn = null;
         PreparedStatement stmt = null;
         ResultSet rs = null;
