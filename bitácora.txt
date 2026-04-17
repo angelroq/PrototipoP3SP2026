@@ -1,0 +1,65 @@
+commit 270d58c6b1abb513a292a2508b66a134968d89cf
+Merge: ce136dc 400cf62
+Author: angelandroq <aroquelm1@miumg.edu.gt>
+Date:   Fri Apr 17 13:37:04 2026 -0600
+
+    Merge pull request #4 from angelroq/afinacionPrograma9959-24-1622
+    
+    afinacionPrograma9959-24-1622
+
+commit 400cf624fd4a8c6372f1788ec172ba48d7955f3c
+Author: [Angel <[aroquelm1@miumg.edu.gt]>
+Date:   Fri Apr 17 13:36:35 2026 -0600
+
+    afinacionPrograma9959-24-1622
+
+commit ce136dc7c035f792e5c9cb54100637f6f7ac1e14
+Merge: 8522d57 c3d5556
+Author: angelandroq <aroquelm1@miumg.edu.gt>
+Date:   Fri Apr 17 13:21:03 2026 -0600
+
+    Merge pull request #3 from angelroq/RamaMantenimientos9959-24-1622
+    
+    RamaMantenimientos9959-24-1622
+
+commit c3d555621b18a2479670024ee8b4778cb3110e59
+Author: [Angel <[aroquelm1@miumg.edu.gt]>
+Date:   Fri Apr 17 13:20:03 2026 -0600
+
+    RamaMantenimientos9959-24-1622
+
+commit 8522d57b9ddf3e747eeeaae773f22b7df36db72f
+Merge: bbabfd1 145a1b3
+Author: angelandroq <aroquelm1@miumg.edu.gt>
+Date:   Fri Apr 17 12:29:44 2026 -0600
+
+    Merge pull request #2 from angelroq/RamaContenedor9959-24-1622
+    
+    RamaContenedor9959-24-1622
+
+commit 145a1b32fcd035ec95bc3b0999da578fa0de9afe
+Author: [Angel <[aroquelm1@miumg.edu.gt]>
+Date:   Fri Apr 17 12:29:03 2026 -0600
+
+    RamaContenedor9959-24-1622
+
+commit bbabfd177e6e256cf880a2b82117d1355e9be7b3
+Merge: 63f44d6 0315363
+Author: angelandroq <aroquelm1@miumg.edu.gt>
+Date:   Fri Apr 17 11:49:31 2026 -0600
+
+    Merge pull request #1 from angelroq/Implementacion_Proyecto_9959-24-1622
+    
+    Implementacion_Proyecto_9959-24-1622
+
+commit 03153634b1f8910e8c5562fbc47e5236a38adf1c
+Author: [Angel <[aroquelm1@miumg.edu.gt]>
+Date:   Fri Apr 17 11:48:05 2026 -0600
+
+    Implementacion_Proyecto_9959-24-1622
+
+commit 63f44d69ca0bf5a9a8a613bc4527af3b8d9dca35
+Author: angelandroq <aroquelm1@miumg.edu.gt>
+Date:   Fri Apr 17 11:38:03 2026 -0600
+
+    Initial commit
