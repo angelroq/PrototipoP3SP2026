@@ -81,7 +81,7 @@ bitacora.setUsucodigo(usuario);
     tablaFacultades.setModel(modelo);
 
     FacultadesDAO dao = new FacultadesDAO();
-    clsBitacora bitacora = crearBitacora("Consulta perfiles");
+    clsBitacora bitacora = crearBitacora("Consulta facultades");
     List<clsFacultades> listaPerfiles = dao.obtenerFacultades(bitacora);
 
     String[] dato = new String[3];
@@ -290,12 +290,13 @@ clsFacultades perfil = dao.obtenerFacultadesPorId(id, bitacora);
 
     private void RegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistrarActionPerformed
         // TODO add your handling code here:
-         if(txtNombre.getText().isEmpty() || txtEstado.getText().isEmpty()){
+         if(txtCodigo.getText().isEmpty() ||txtNombre.getText().isEmpty() || txtEstado.getText().isEmpty()){
     JOptionPane.showMessageDialog(null, "Complete los campos");
     return;
     } 
     
     clsFacultades facultades = new clsFacultades();
+    facultades.setCodigo_facultad(txtCodigo.getText());
     facultades.setNombre_facultad(txtNombre.getText());
     facultades.setStatus_facultad(txtEstado.getText());
 
