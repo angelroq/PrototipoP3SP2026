@@ -34,6 +34,7 @@ Vista\frmLogin$1.class
 Vista\frmMantenimientoAplicaciones$8.class
 Vista\MdiSeguridad$8.class
 Vista\MdiSeguridad$1.class
+Vista\frmMantenimientoFacultades.class
 Vista\frmRestablecerContraseña.class
 Vista\frmMantenimientoUsuario$2.class
 Vista\frmProcesoAplicacionPerfil$10.class
@@ -49,6 +50,8 @@ Vista\MdiSeguridad$12.class
 Modelo\BitacoraDAO.class
 Vista\frmMantenimientoPerfil$4.class
 Vista\frmMantenimientoUsuario$8.class
+Controlador\clsFacultades.class
+Modelo\FacultadesDAO.class
 Vista\frmProcesoPerfilUsuario$2.class
 Vista\frmMantenimientoAplicaciones$7.class
 Controlador\clsAplicaciones.class
